@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnsorMed</title>
+
+    <!-- FAVICON  -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/css.min.css"> -->
+  </head>
+  <body>
+    <!-- LOADER  -->
+    <div class="lds-ripple-wrapper">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- SITE HEADER  -->
+    <header class="site-header">
+      <div class="site-header__container container">
+        <!-- LOGO  -->
+        <a class="logo site-header__logo" href="index.html">
+          <img
+            class="logo__img"
+            src="img/logo-icon.jpg"
+            alt="AnsorMed logo"
+            width="50"
+            height="50"
+            srcset="img/logo-icon.jpg 1x, img/logo-icon@2x.jpg 2x"
+          />
+          <span class="logo__text">AnsorMed</span>
+        </a>
+
+        <!-- MENU  -->
+        <button class="menu site-header__menu js-menu" type="button">
+          <img
+            class="menu__img menu__img-open js-open"
+            src="img/bars-solid.svg"
+            width="30"
+            height="30"
+            alt="Open naigation menu"
+          />
+          <img
+            class="menu__img menu__img-close js-close"
+            src="img/xmark-solid.svg"
+            width="30"
+            height="30"
+            alt="Close navigation menu"
+          />
+        </button>
+
+        <!-- SITE NAVIGATOR  -->
+        <nav class="sitenav site-header__sitenav">
+          <div class="sitenav__inner js-header">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Xizmatlar</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Dorilar</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Asal</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Kontaktlar</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- CTA  -->
+        <a class="button button--red site-header__button">Qabulga yozilish</a>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <div class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__heading">
+              Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.
+            </h1>
+            <p class="hero__description">
+              Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p
+              uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni
+              o’z ishining professionallariga ishonib topshiring.
+            </p>
+
+            <a class="button button--red button--opacity">Qabulga yozilish</a>
+          </div>
+
+          <img
+            class="hero__img"
+            src="img/hero-img.png"
+            width="423"
+            height="504"
+            srcset="img/hero-img.png 1x, img/hero-img@2x.png 2x"
+          />
+        </div>
+      </div>
+
+      <!-- INDEX SERVICES  -->
+      <section class="index-services">
+        <div class="container index-services__container">
+          <h2 class="index-services__heading">Xizmatlar</h2>
+          <div class="services-list-wrapper">
+            <ul class="services-list">
+              <li class="services-list__item">
+                <img
+                  class="services-list__img"
+                  src="img/hijama.jpg"
+                  alt=""
+                  aria-hidden="true"
+                  width="200"
+                  height="200"
+                  srcset="img/hijama.jpg 1x, img/hijama@2x.jpg 2x"
+                />
+                <div class="services-list__content">
+                  <h3 class="services-list__title">Hijoma</h3>
+                  <p class="services-list__description">
+                    Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan
+                    rivoyat qilgan hadisda rasululloh sallallohu alayhi va
+                    sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng
+                    yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy
+                    hisobdagi oylar kunlaridir).
+                  </p>
+                </div>
+              </li>
+              <li class="services-list__item">
+                <img
+                  class="services-list__img"
+                  src="img/manual-therapy.jpg"
+                  alt=""
+                  aria-hidden="true"
+                  width="200"
+                  height="200"
+                  srcset="
+                    img/manual-therapy.jpg    1x,
+                    img/manual-therapy@2x.jpg 2x
+                  "
+                />
+                <div class="services-list__content">
+                  <h3 class="services-list__title">Manual terapiya</h3>
+                  <p class="services-list__description">
+                    Manual terapiya Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Nulla ac metus placerat, pellentesque enim
+                    ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed
+                    massa sit amet elit viverra hendrerit.
+                  </p>
+                </div>
+              </li>
+              <li class="services-list__item">
+                <img
+                  class="services-list__img"
+                  src="img/therapy-byzuluk.jpg"
+                  alt=""
+                  aria-hidden="true"
+                  width="200"
+                  height="200"
+                  srcset="
+                    img/therapy-byzuluk.jpg    1x,
+                    img/therapy-byzuluk@2x.jpg 2x
+                  "
+                />
+                <div class="services-list__content">
+                  <h3 class="services-list__title">Zuluk bilan davolash</h3>
+                  <p class="services-list__description">
+                    Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία
+                    — «davolash») — ma’lum kasalliklarni dorivor zuluklar
+                    (Hirudo medicinalis) yordamida davolash usuli.
+                    Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi.
+                    Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid
+                    yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir
+                    ko’rsatmaydi.
+                  </p>
+                </div>
+              </li>
+              <li class="services-list__item">
+                <img
+                  class="services-list__img"
+                  src="img/natural.jpg"
+                  width="200"
+                  height="200"
+                  alt=""
+                  aria-hidden="true"
+                  srcset="img/natural.jpg 1x, img/natural@2x.jpg 2x"
+                />
+                <div class="services-list__content">
+                  <h3 class="services-list__title">Tabiiy dori vositalari</h3>
+                  <p class="services-list__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla ac metus placerat, pellentesque enim ac, rhoncus
+                    lectus. Maecenas et posuere lorem. Fusce sed massa sit amet
+                    elit viverra hendrerit.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="index-services__button-wrapper">
+            <a class="button button--red">Qabulga yozilish</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA  -->
+      <section class="cta" id="index-cta">
+        <div class="container">
+          <h2 class="cta__heading">Qabulga ro’yxatdan o’ting</h2>
+          <div class="cta__links">
+            <a class="button button--white">Qo’ng’iroq qilish</a>
+
+            <a class="button button--white">Telegramdan yozish</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- SITE FOOTER  -->
+    <footer class="site-footer">
+      <div class="container site-footer__container">
+        <!-- LOGO  -->
+        <a class="logo site-footer__logo" href="index.html">
+          <img
+            class="logo__img"
+            src="img/logo-icon.jpg"
+            alt="AnsorMed logo"
+            width="50"
+            height="50"
+            srcset="img/logo-icon.jpg 1x, img/logo-icon@2x.jpg 2x"
+          />
+          <span class="logo__text logo__text--footer">AnsorMed</span>
+        </a>
+
+        <!-- SITE NAVIGATOR  -->
+        <div class="sitenav site-footer__sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Xizmatlar</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Dorilar</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Asal</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Kontaktlar</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
